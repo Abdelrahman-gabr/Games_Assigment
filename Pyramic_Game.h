@@ -1,6 +1,4 @@
-//
-// Created by gabra on 12/4/2024.
-//
+
 
 #ifndef ASSIGMENT_2_PYRAMIC_GAME_H
 #define ASSIGMENT_2_PYRAMIC_GAME_H
