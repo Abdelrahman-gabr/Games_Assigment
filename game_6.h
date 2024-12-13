@@ -17,7 +17,7 @@ public:
 
     bool update_board(int x, int y, T symbol);
     void display_board();
-    bool is_win();  // سيتم تنفيذ الدالة لاحقًا مع منطق "الخسارة".
+    bool is_win();   
     bool is_draw();
     bool game_is_over();
 };
@@ -67,7 +67,6 @@ void X_O_Board<T>::display_board() {
 
 template <typename T>
 bool X_O_Board<T>::is_win() {
-    // عكس منطق الفوز: إذا تحقق "ثلاث علامات متشابهة" فهذا يعني أن اللاعب خسر
     for (int i = 0; i < this->rows; i++) {
         if ((this->board[i][0] == this->board[i][1] && this->board[i][1] == this->board[i][2] && this->board[i][0] != 0) ||
             (this->board[0][i] == this->board[1][i] && this->board[1][i] == this->board[2][i] && this->board[0][i] != 0)) {
