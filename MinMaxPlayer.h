@@ -2,8 +2,8 @@
 // Created by gabra on 12/8/2024.
 //
 
-// I want to determine only the best place and put on it any random char (if can check all char and determine the best char it will be perfect take a try)
-// connect four only start from down to up!
+// AI Player for Game 1 (pyramid)
+
 #ifndef _MINMAXPLAYER_H
 #define _MINMAXPLAYER_H
 
