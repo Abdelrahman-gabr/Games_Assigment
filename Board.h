@@ -1,6 +1,3 @@
-//
-// Created by gabra on 11/28/2024.
-//
 
 #ifndef ASSIGMENT_2_BOARD_H
 #define ASSIGMENT_2_BOARD_H
