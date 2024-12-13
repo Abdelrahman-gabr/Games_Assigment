@@ -26,7 +26,6 @@ private:
     int n_moves;
 };
 
-// تنفيذ الكلاس Game_3
 template <typename T>
 Game_3<T>::Game_3() {
     rows = columns = 5;
