@@ -4,7 +4,7 @@
 #include "Board.h"
 #include <iostream>
 #include <iomanip>
-#include <cctype>  // for toupper()
+#include <cctype>  
 #include <cstdlib>
 #include <ctime>
 
